@@ -8,7 +8,7 @@ Simple Usage
 require_once 'NaverBlogVisitorCntCrawler';
 use NaverBlogVisitorCntCrawler;
 
-$blogId = "Your naver blog ID"
+$blogId = "Your naver blog ID";
 $naverBlogVisitorCounter = new NaverBlogVisitorCntCrawler($blogId);
 echo $naverBlogCrawler->getAverageVisitorCnt();
 ?>
