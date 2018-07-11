@@ -3,13 +3,12 @@
 
 Simple Usage
 
-<code>
-  <?php
-  require_once 'NaverBlogVisitorCntCrawler';
-  use NaverBlogVisitorCntCrawler;
+```php
+<?php
+require_once 'NaverBlogVisitorCntCrawler';
+use NaverBlogVisitorCntCrawler;
 
-
-  $naverBlogVisitorCounter = new NaverBlogVisitorCntCrawler($blogId);
-  echo $naverBlogCrawler->getAverageVisitorCnt();
-  ?>
-</code>
+$naverBlogVisitorCounter = new NaverBlogVisitorCntCrawler($blogId);
+echo $naverBlogCrawler->getAverageVisitorCnt();
+?>
+```
